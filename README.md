@@ -28,10 +28,11 @@ show all the customers data.
  **** CLASS STRUCTURE ****
 
 
- 
+
 ____Account Class____
--This class is abstract and thus can't be instantiated
--contains an abstract method withdraw
+
+- This class is abstract and thus can't be instantiated
+- contains an abstract method withdraw
 - returns an overide string: balance
 
 ___ Bank Class____
@@ -48,9 +49,9 @@ __Customer class____
 - Contains method for customers to add number of accounts they have.
 
 ___ TimeDepositAccount class____
-- contains main business logic of the app
+ -  contains main business logic of the app
  - gets and sets maturity date for account maturity
  - contains withdraw method which is possible only after maturity date check has been passed.
  - extends account class.
- -contains method for depositing into account.
+ - contains method for depositing into account.
 
