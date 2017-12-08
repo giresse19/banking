@@ -20,8 +20,7 @@ Time deposit accounts allow withdraw only after a
 maturity date.
 
 
-
-T
+
  
  **** CLASS STRUCTURE ****
 
