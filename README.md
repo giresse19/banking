@@ -26,6 +26,9 @@ show all the customers data.
 
  
  **** CLASS STRUCTURE ****
+
+
+ 
 ____Account Class____
 -This class is abstract and thus can't be instantiated
 -contains an abstract method withdraw
