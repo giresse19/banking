@@ -57,3 +57,8 @@ ___ TimeDepositAccount class____
  - contains method for depositing into account.
  - contains method to get balance in account.
 
+ ___AccountTest.java____
+ - contains the main method to test application functionalities
+ - creates instances of class(objects) and calls methods
+ - does not contain any method implementation, ONLY calls.
+
