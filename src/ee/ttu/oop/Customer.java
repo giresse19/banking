@@ -66,9 +66,4 @@ public class Customer {
 				+ " numberOfAccounts:" + numberOfAccounts;
 	}
 	
-	
-	
-	
-	
-	
 }

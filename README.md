@@ -1,4 +1,6 @@
-# banking
+# 
+# Banking App. Project for Fundamentals of Programming Course.
+
 
 Banking software that implements the logic 
 for a bank. 
@@ -21,9 +23,7 @@ Time deposit accounts
 are also known as term deposit, certificate of deposit (CD), or fixed deposit 
 accounts.
 
-There should be an option to generate a customer report for the bank. The report should 
-show all the customers data.
-
+T
  
  **** CLASS STRUCTURE ****
 
@@ -36,6 +36,7 @@ ____Account Class____
 - returns an overide string: balance
 
 ___ Bank Class____
+
 - contains void method were customers are being added in an array
 - contains getters and setters for numberofcustomers.
 
@@ -54,4 +55,5 @@ ___ TimeDepositAccount class____
  - contains withdraw method which is possible only after maturity date check has been passed.
  - extends account class.
  - contains method for depositing into account.
+ - contains method to get balance in account.
 

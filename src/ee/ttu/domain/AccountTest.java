@@ -25,7 +25,7 @@ public class AccountTest {
 		TimeDepositAccount acc1 = new TimeDepositAccount(500, cal.getTime());		
 
 		customer1.addAccount(acc1);
-		customer1.addAccount(acc2);
+		
 
 		System.out.println(customer1);
 
