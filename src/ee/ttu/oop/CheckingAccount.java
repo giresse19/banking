@@ -18,12 +18,13 @@ public class CheckingAccount extends Account{
 		
 	}
 	
+	/*
 	// @Override
 	public boolean withdraw(double amount)
-	{
-		// implement
+	{		
 		
 		return false;
 	}
-	
+    */
+
 }
