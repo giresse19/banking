@@ -17,11 +17,9 @@ Time deposit accounts has its balance and maturity date
 . 
 
 Time deposit accounts allow withdraw only after a 
-maturity date
-. 
-Time deposit accounts 
-are also known as term deposit, certificate of deposit (CD), or fixed deposit 
-accounts.
+maturity date.
+
+
 
 T
  
