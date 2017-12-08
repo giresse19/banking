@@ -11,19 +11,18 @@ public class AccountTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Customer customer1 = new Customer("Jane","Smith");
-		Customer customer2 = new Customer("Paul","Smith");
+		Customer customer1 = new Customer("Jane","Smith");		
 		
 		System.out.println(customer1);
 		
 		Calendar cal = Calendar.getInstance();
+		
 		//180 day term, 6 months
 		cal.add(Calendar.DAY_OF_YEAR, 180);
 		
 		System.out.println(cal.getTime());
 		
-		TimeDepositAccount acc1 = new TimeDepositAccount(500, cal.getTime());
-		TimeDepositAccount acc2 = new TimeDepositAccount(500, cal.getTime());
+		TimeDepositAccount acc1 = new TimeDepositAccount(500, cal.getTime());		
 
 		customer1.addAccount(acc1);
 		customer1.addAccount(acc2);
