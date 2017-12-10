@@ -7,7 +7,7 @@ for a bank.
 
 Bank has its 
 customers  Every customer has its first and last name can have several 
-time deposit accounts 
+time deposit accounts(restricted to 2 only to reduce redundancy) 
 
 The banking software supports only the creation of 
 time deposit accounts
