@@ -13,8 +13,8 @@ public class Customer {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		// initialize accounts array
-		Accounts = new Account[10];
+		// Initialise accounts array
+		Accounts = new Account[2]; 
 		numberOfAccounts = 0;
 	}
 
@@ -62,8 +62,13 @@ public class Customer {
 	 */
 	// @Override
 	public String toString() {
-		return "Customer firstName:" + firstName + " lastName:" + lastName + " Accounts:" + Arrays.toString(Accounts)
-				+ " numberOfAccounts:" + numberOfAccounts;
+		return "Customer's firstName: " + firstName
+				+ ", \n"
+				+ "Customer's lastName: " + lastName 
+				+ ", \n"
+				+ "Customer's Accounts: " + Arrays.toString(Accounts)
+				+ ", \n"
+				+ "Customer's Number Of Accounts: " + numberOfAccounts;
 	}
 	
 }

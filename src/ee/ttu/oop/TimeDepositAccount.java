@@ -75,7 +75,7 @@ public class TimeDepositAccount extends Account{
 	 */
 	// @Override
 	public String toString() {
-		return "TimeDepositAccount Balance:" + Balance + " maturityDate:" + maturityDate;
+		return "TimeDepositAccount Balance: " + Balance + "  " +  " maturityDate: " + maturityDate;
 	}
 	
 	

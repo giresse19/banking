@@ -24,7 +24,7 @@ public class Bank {
 	
 	public Bank() {
 		super();
-		this.customers = new Customer [10];
+		this.customers = new Customer [2];
 		numberOfCustomers = 0;
 	}
 	
@@ -41,7 +41,9 @@ public class Bank {
 	 */
 	// @Override
 	public String toString() {
-		return "Customers:" + Arrays.toString(customers) + " numberOfCustomers:" + numberOfCustomers;
+		return"Customer's Report: \n" + Arrays.toString(customers) 
+		+ ", \n"
+		+ "Number Of Customers: " + numberOfCustomers;
 	}
 	
 	

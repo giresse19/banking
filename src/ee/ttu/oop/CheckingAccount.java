@@ -17,6 +17,11 @@ public class CheckingAccount extends Account{
 		this.overDraftLimit = 0;
 		
 	}
+
+	public boolean withdraw(double amount) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 	/*
 	// @Override
